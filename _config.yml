@@ -1,0 +1,5 @@
+title: "My Website"
+description: "Hello world with GitHub Pages"
+remote_theme: pages-themes/cayman
+plugins:
+  - jekyll-remote-theme
