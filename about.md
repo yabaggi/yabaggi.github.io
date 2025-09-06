@@ -1,8 +1,4 @@
 ---
-
-## 🔹 `about.md`
-```markdown
----
 layout: default
 title: About
 ---
