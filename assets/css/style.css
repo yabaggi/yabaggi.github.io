@@ -98,3 +98,26 @@ body {
   max-width: 800px;
   margin: auto;
 }
+/* Table of Contents Styling */
+.content ul:first-of-type {
+  list-style-type: none;
+  padding: 15px;
+  margin: 15px 0;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.content ul:first-of-type li {
+  margin: 6px 0;
+}
+
+.content ul:first-of-type a {
+  color: #0366d6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content ul:first-of-type a:hover {
+  text-decoration: underline;
+  }
