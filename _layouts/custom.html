@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<!-- ✅ Custom Navbar -->
+<!-- ✅ Custom Navbar (added before content) -->
 <nav class="navbar">
   <div class="nav-container">
     <a href="{{ '/' | relative_url }}">Home</a>
@@ -13,6 +13,5 @@ layout: default
 </nav>
 
 <!-- ✅ Page Content -->
-<main class="content">
-  {{ content }}
-</main>
+{{ content }}
+
