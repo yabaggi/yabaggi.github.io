@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<!-- ✅ Custom Navbar -->
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/about' | relative_url }}">About</a>
+    <a href="{{ '/contact' | relative_url }}">Contact</a>
+    <a href="{{ '/resources' | relative_url }}">Resources</a>
+  </div>
+</nav>
+
+<!-- ✅ Page Content -->
+<main class="content">
+  {{ content }}
+</main>
